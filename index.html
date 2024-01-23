@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/slety.css">
+    <title>Menu Responsivo</title>
+</head>
+
+<body>
+    <header>
+
+      <div class="container">
+
+        <section class="logo">
+            <a href="index.html">
+                <strong>Salão</strong>
+                <span class=" blue-dot"></span>
+                <span>Essência</span>
+            </a>
+        </section>
+
+
+
+        
+        <nav class="nav-bar">
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="./index.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="./about.html" class="nav-link">Sobre mim</a></li>
+                    <li class="nav-item"><a href="./termos.html" class="nav-link"> Termos e Condições</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./image/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="./index.html" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="./about.html" class="nav-link">Sobre mim </a></li>
+            <li class="nav-item"><a href="./termos.html" class="nav-link">Termos e Condições</a></li>
+            </ul>
+
+        </div>
+    </header>
+
+
+    <section class="Hero">
+      <picture>
+          <source media="(max-width: 576px)" srcset="./image/Logo1.jpeg">
+          <source media="(max-width: 960px)" srcset="./image/Logo1.jpeg">
+          <source media="(max-width: 1440px)" srcset="./image/Logo1.jpeg">
+          <img src="./image/Logo1.jpeg" alt="Hero image- snart wetch">
+      </picture>
+
+      <div class="Hero-content">
+          <div class="conteiner">
+
+
+      </div>
+  </section>
+  <section class="best-sellers" id="best-sellers-section">
+      <h2>Clientes</h2>
+      <hr>
+      <div class="product-slider ">
+          <div class="container">
+              <div class="product new">
+                  <div class="product-pinture ">
+                      <img src="./image/Cliente7.jpeg" alt=" product:Penom Case">
+                  </div>
+                  <div class="product-info new">
+                      <h5 class="categories"></h5>
+                      <h4 class="title">Você merece o que há de melhor. Por isso os meus serviços estão aqui, 
+                        onde você entra bonita,
+                         mas sai com um visual espetacular. 
+                        Agende seu horário e desfrute dos serviços."Aqui, cada cliente é uma obra-prima da beleza."</h4>
+
+                      <h3>
+
+                      </h3>
+
+                  </div>
+              </div>
+
+              <div class="product new">
+                  <div class="product-pinture new">
+                      <img src="./image/Cliente9.jpeg" alt="product:Noise Cancelling ">
+                  </div>
+                  <div class="product-info new">
+                      <h5 class="categories"></h5>
+                      <h4 class="title">"Com os produtos de beleza certos,
+                         o seu cabelo ganhará  vida e personalidade. Agora, 
+                         cada fio conta uma história de brilho e vitalidade. 
+                         Descubra a magia dos cuidados capilares que transformam não apenas os cabelos,
+                          mas também a confiança de quem os exibe."</h4>
+                  </div>
+              </div>
+
+              <div class="product ">
+                  <div class="product-pinture ">
+                      <img src="./image/Cliente4.jpeg" alt=" product:Canon Didital">
+                  </div>
+                  <div class="product-info new">
+                      <h5 class="categories"></h5>
+                      <h4 class="title">"Tenha cabelos incrivelmente lisos e sem frizz com nosso tratamento de progressiva de alta qualidade.
+                         Diga adeus aos fios rebeldes e olá a um cabelo sedoso e fácil de cuidar. 
+                         Transforme sua rotina diária de beleza e agende uma sessão de progressiva hoje mesmo!"</h4>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+  <div class="whats">
+      <a href="https://wa.me/553184417459?text=Olá tudo bem?! Estou interessada em seu serviço" target="_blank"> 
+      <img src="./image/Iconewats.png" width="40" alt="Fale comigo pelo WhatsApp" title="Fale comigo pelo WhatsApp" />
+  </a>
+  </div>
+  
+  <footer>
+      <div class="bottom-nav">
+          <div class="container">
+              <ul>
+                  <li class="list-title">Essência</li>
+                  <li><a href="index.html">Inicio</a></li>
+
+                  <li><a href="about.html">Sobre mim</a></li>
+              </ul>
+
+
+
+              <ul>
+                  <li class="list-title">Agende o seu horario </li>
+                  <a href="https://wa.me/553184417459?text=Olá tudo bem?! Estou interessada em seu serviço" target="_blank"> 
+                    <img src="./image/agendamento 2.jpg" width="40" alt="Fale comigo pelo WhatsApp" title="Fale comigo pelo WhatsApp" />
+                            </ul>
+
+
+              <ul>
+                  <li class="list-title">Termos & Condições</li>
+                  <li><a href="termos.html">Termos & Condições</a></li>
+              </ul>
+
+          </div>
+      </div>
+      <div class="copyringht-text">
+          2024 &copy; Feito por Nikolas Souza
+      </div>
+  </footer>
+
+
+    <script src="./JS/mains.js"></script>
+</body>
+
+</html>
